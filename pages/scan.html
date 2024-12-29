@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Coder: Scan</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+    <link rel="stylesheet" href="../styles/master.css">
+    <link rel="stylesheet" href="../styles/const.css">
+    <link rel="stylesheet" href="../styles/scan.css">
+</head>
+<body>
+    <main id="main-content">
+        <section id="camera"></section>
+        <button id="button" onclick="scanBarCode()">
+            <!--
+                <span class="material-symbols-outlined">barcode_scanner</span>
+                <span class="material-symbols-outlined">inventory</span>
+                <span class="material-symbols-outlined">home</span>
+            -->
+                Scan again
+        </button>
+    </main>
+    
+    <script src="../scripts/tokenizer.js"></script>
+    <script src="../scripts/reader/quagga.min.js"></script>
+    <script src="../scripts/reader/reader.js"></script>
+</body>
+</html>
